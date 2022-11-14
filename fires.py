@@ -44,4 +44,4 @@ data = [
 my_layout = Layout(title=f"Fires around the world from {dates[0]} to {dates[-1]}")
 
 fig = {"data": data, "layout": my_layout}
-offline.plot(fig)
+offline.plot(fig, filename="World_fires.html")
